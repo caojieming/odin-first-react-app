@@ -5,12 +5,16 @@ import App from './App.jsx'
 import { Greeting } from "./Greeting.jsx";
 import { Practice1 } from './Practice1.jsx';
 import { Buttons } from './Buttons.jsx';
+import { ElementAnimals, ComponentAnimals, ConditionalAnimals } from './Animals.jsx'; 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <Greeting /> */}
     {/* <Practice1 /> */}
-    <Buttons />
+    {/* <Buttons /> */}
+    {/* <ElementAnimals /> */}
+    {/* <ComponentAnimals /> */}
+    <ConditionalAnimals />
   </StrictMode>,
 )
