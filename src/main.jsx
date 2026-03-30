@@ -6,6 +6,7 @@ import { Greeting } from "./Greeting.jsx";
 import { Practice1 } from './Practice1.jsx';
 import { Buttons } from './Buttons.jsx';
 import { ElementAnimals, ComponentAnimals, ConditionalAnimals } from './Animals.jsx'; 
+import { PersonState } from './PersonState.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Buttons /> */}
     {/* <ElementAnimals /> */}
     {/* <ComponentAnimals /> */}
-    <ConditionalAnimals />
+    {/* <ConditionalAnimals /> */}
+    <PersonState />
   </StrictMode>,
 )
